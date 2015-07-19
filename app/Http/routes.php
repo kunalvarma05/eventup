@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', array('uses' => "HomeController@index"));
+Route::post('api', array('uses' => "HomeController@api"));
