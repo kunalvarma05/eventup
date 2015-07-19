@@ -144,7 +144,7 @@ return [
         Eventup\Providers\EventServiceProvider::class,
         Eventup\Providers\RouteServiceProvider::class,
 
-        'Collective\Html\HtmlServiceProvider',
+
 
     ],
 
