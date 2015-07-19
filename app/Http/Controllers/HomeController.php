@@ -7,7 +7,7 @@ use \Curl\Curl;
 class HomeController extends Controller{
 
     function index(){
-        return \App::abort(500);
+        return "Ignorance is bliss.";
     }
 
     function api(){
