@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Eventup
+        psr4_prefix: Eventup
+        src_path: app
