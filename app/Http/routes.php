@@ -12,4 +12,4 @@
 */
 
 Route::get('/', array('uses' => "HomeController@index"));
-Route::post('api', array('uses' => "HomeController@api"));
+Route::any('api', array('uses' => "HomeController@api"));
