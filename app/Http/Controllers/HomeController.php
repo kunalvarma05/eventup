@@ -7,7 +7,7 @@ use \Curl\Curl;
 class HomeController extends Controller{
 
     function index(){
-        return view('welcome');
+        return \App::abort(500);
     }
 
     function api(){
